@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ordenaris.OrdenarisRiskEngineTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-04-13T04:47:33" hostname="DESKTOP-9B6J5BP" time="2.173">
+  <properties/>
+  <testcase name="testDemandaLegal_ShouldBeHigh()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="2.073"/>
+  <testcase name="testProductoEstricto_ShouldIncreaseRisk()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.016"/>
+  <testcase name="testHistorialExcelente_ShouldLowerRisk()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.006"/>
+  <testcase name="testEmpresaNueva_RiskShouldBeAtLeastMedium()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.012"/>
+  <testcase name="testMissingDatosContables_ShouldThrowException()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.011"/>
+  <testcase name="testAltaSolicitudVsVentas_ShouldBeHigh()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.005"/>
+  <testcase name="testMultipleRules_CombinedEffect()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.013"/>
+  <testcase name="testDeudaActiva_ShouldReject()" classname="com.ordenaris.OrdenarisRiskEngineTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: ALTO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: BAJO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: BAJO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: MEDIO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: ALTO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: ALTO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluando riesgo para empresa: EMPRESA_001
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Empresa rechazada por regla: Deuda Activa - Riesgo establecido en RECHAZADO
+[Test worker] INFO com.ordenaris.OrdenarisRiskEngine - Evaluación completada - Riesgo final: RECHAZADO
+]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ordenaris.rule.RulesIntegrationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-04-13T04:47:36" hostname="DESKTOP-9B6J5BP" time="0.031">
+  <properties/>
+  <testcase name="testDeudaActivaRule()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.003"/>
+  <testcase name="testDemandaLegalRule()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.001"/>
+  <testcase name="testEmpresaNuevaRule()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.001"/>
+  <testcase name="testAltaSolicitudRule()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.002"/>
+  <testcase name="testRulePriorities()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.008"/>
+  <testcase name="testHistorialExcelenteRule()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.003"/>
+  <testcase name="testProductoEstrictoRule()" classname="com.ordenaris.rule.RulesIntegrationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
